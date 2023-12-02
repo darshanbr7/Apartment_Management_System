@@ -1,0 +1,32 @@
+.register-page {
+  background-color: rgb(171, 163, 163);
+  margin-left: 35%;
+}
+.register-button {
+  margin-left: 35%;
+}
+.register-header {
+  margin-left: 33%;
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .register-page {
+    margin-left: 20%;
+  }
+  .register-button {
+    margin-left: 30%;
+  }
+  .register-header {
+    margin-left: 30%;
+  }
+}
+@media (max-width: 600px) {
+  .register-page {
+    margin-left: 4%;
+  }
+  .register-button {
+    margin-left: 35%;
+  }
+  .register-header {
+    margin-left: 33%;
+  }
+}

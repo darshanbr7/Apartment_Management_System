@@ -1,0 +1,37 @@
+.sidenav {
+  height: 100%;
+  width: 5rem;
+  position: fixed;
+  z-index: 1;
+  top: 58px;
+  left: 0;
+  background-color: #a5ecba;
+  padding-top: 20px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.sidenav a {
+  padding: 15px 25px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+}
+
+Link {
+  background-color: aqua;
+}
+@media (max-width: 600px) {
+  .sidenav {
+    height: 5rem;
+    width: 100%;
+    position: sticky;
+    background-color: #bde3c9;
+    overflow: hidden;
+    display: inline-block;
+    justify-content: end;
+  }
+}

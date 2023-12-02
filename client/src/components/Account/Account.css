@@ -1,0 +1,58 @@
+.getTenant-page {
+  overflow: auto;
+}
+.getTenant-table {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  width: 80%;
+  display: inline-block;
+  overflow-y: auto;
+}
+.getTenant-table-page {
+  overflow: auto;
+}
+.searchBar {
+  position: relative;
+  width: 600px;
+  height: 40px;
+  margin-left: 30%;
+  margin-top: 20px;
+  color: black;
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .getTenant-table {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .searchBar {
+    width: 300px;
+    height: 40px;
+    margin-left: 30%;
+    margin-top: 2rem;
+  }
+  .getTenant-table {
+    width: fit-content;
+  }
+}
+@media (max-width: 600px) {
+  .getTenant-table {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2rem;
+    width: 60%;
+  }
+  .searchBar {
+    width: 300px;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 6rem;
+  }
+  .getTenant-table {
+    width: fit-content;
+  }
+}

@@ -1,0 +1,26 @@
+.pagenotfound{
+    background-color: rgb(127, 124, 124);
+    height: 99%;
+    width: 100%;
+}
+
+.typing {
+position: relative; 
+}
+
+.typing::after {
+content:"|";
+position: absolute;
+right: 0;
+width: 100%;
+animation: typing 4s steps (16) forwards, caret 1s infinite;
+}
+
+@keyframes typing { 
+    to { width: 0; }
+
+}
+
+@keyframes caret {
+50%{ color: transparent}
+}
