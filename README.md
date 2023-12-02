@@ -10,10 +10,10 @@ Step-3 : Add_Apartment
 ![Add_Apartment Page](screenShots/AddApartment.png)
 
 Step-4 : All_Apartment
-![All_Apartment Page](screenShots/AllApartment.png)
+![All_Apartment Page](screenShots/AllApartments.png)
 
 Step-5 : Edit_Apartment
-![Edit_Apartment Page](screenShots/EditApartment.png)
+![Edit_Apartment Page](screenShots/EditApartments.png)
 
 Step-6 : Add_Tennants
 ![Add_Tennants Page](screenShots/AddTenants.png)
